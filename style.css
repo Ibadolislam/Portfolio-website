@@ -13,17 +13,19 @@ h1{
 
     color: chartreuse;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
     padding-left: 5px;
-    margin-left: 5px;
+    margin-left: 120px;
 }
 .half-width img{
     width: 70%;
 padding-top: 10px;
+margin-left: 120px;
 }
 
 .hire-me{
@@ -38,5 +40,11 @@ padding-top: 10px;
     background-repeat: no-repeat;
 
 }
-    
-    
+    .dream-ishere{ 
+        background-image: url(images/);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .experience{
+margin-left: 50px;
+    }
