@@ -1,6 +1,6 @@
 h1{
     text-align: left;
-    color: blue;
+    color: orange;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -11,17 +11,30 @@ h1{
 }
 .My-world{
 
-    color: chartreuse;
+    color: rgb(17, 66, 230);
 }
 .flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
 .half-width{
-    width: 50%;
+    width: 40%;
     padding-left: 5px;
     margin-left: 120px;
 }
+.half-width-2{
+    width: 40%;
+    padding-left: 5px;
+    margin-right: 120px;
+
+}
+.half-width-2 img{
+
+    width: 70%;
+    padding-top: 10px;
+    margin-right: 120px;
+}
+
 .half-width img{
     width: 70%;
 padding-top: 10px;
@@ -40,11 +53,50 @@ margin-left: 120px;
     background-repeat: no-repeat;
 
 }
-    .dream-ishere{ 
-        background-image: url(images/);
-        background-repeat: no-repeat;
-        background-position: right;
+    .dream-ishere{
+    background-image: url(images/dream-bg.png);
+   background-position: right;
+   background-repeat: no-repeat;
+    margin-bottom: 300px;
+    }
+    .flexible-container{
+        width: 100%;
+    }
+    .unitof-experience{
+      box-shadow: 10px 10px 40px gray;
+      width: 40%;
+      margin-left: 5%;
+      margin-right: 5%;
+      padding-left: 30px;
+      border-radius: 10px;
+      box-shadow: 10px 10px 40px gray;
+
+     } 
+     #baby-developer{
+        border-left: 10px solid;
+        border-image: linear-gradient(rgb(170, 133, 218),rgb(231, 18, 149));
+        border-image-slice:1;
+       
+     }
+     #web-developer{
+        border-left: 10px solid;
+        border-image: linear-gradient(red,yellow);
+        border-image-slice:1;
+      
+     }
+
+    }
+    .experience-1{
+        padding-left: 60px;
+        color: greenyellow;
     }
     .experience{
-margin-left: 50px;
+        background-image: url(images/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    footer p{
+        text-align: center;
+    color: teal;
+   
     }
